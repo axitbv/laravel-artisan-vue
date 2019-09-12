@@ -1,0 +1,8 @@
+export default {
+    // totalLinePriceWithVat: state => index => {
+    //     return (
+    //         state.feature.lines[index].price +
+    //         state.feature.lines[index].vat
+    //     );
+    // }
+};

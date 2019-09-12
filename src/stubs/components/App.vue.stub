@@ -1,0 +1,39 @@
+<template>
+    <div class="container-fluid spark-screen">
+        <h3>Greetings from {{ StudlyCase }}!</h3>
+    </div>
+</template>
+
+<script>
+import { mapState, mapActions } from "vuex";
+import { store } from "../store";
+
+export default {
+    store,
+    components: {},
+    props: {
+        load: {
+            type: Number,
+            default() {
+                return 0;
+            }
+        }
+    },
+    computed: {
+        ...mapState(["feature"])
+    },
+    mounted() {
+        if (this.load > 0) {
+            this.loadFeature(this.load);
+        }
+    },
+    created() {
+        // window.bus.$on("wizard:store-feature", () => {
+        //     this.storeFeature();
+        // });
+    },
+    methods: {
+        ...mapActions(["storeFeature", "loadFeature"])
+    }
+};
+</script>

@@ -1,0 +1,21 @@
+import * as types from "./mutation_types";
+
+export default {
+    storeFeature(context) {
+    //     window.axios
+    //         .post("/api/v1/feature", context.state.feature)
+    //         .then(() => {
+    //             window.toastr.success("The feature was stored successfully", "Success");
+    //         })
+    //         .catch(err => window.toastr.error(err, "Error"));
+    },
+    loadFeature(context, payload) {
+    //     window.axios
+    //         .get(`/api/v1/feature/${payload}`)
+    //         .then(res => {
+    //             context.commit(types.LOAD_FEATURE, res.data);
+    //             window.toastr.info("The feature was loaded successfully", "Info");
+    //         })
+    //         .catch(err => window.toastr.error(err, "Error"));
+    }
+};

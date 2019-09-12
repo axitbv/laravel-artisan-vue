@@ -1,0 +1,10 @@
+export default {
+    feature: {
+        // id: null,
+        // propA: null,
+        // propB: null,
+        // propC: null,
+        // relatedEntities: [],
+        // relatedNestedEntities: []
+    }
+};

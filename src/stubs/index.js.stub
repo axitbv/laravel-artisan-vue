@@ -1,0 +1,27 @@
+import Vue from "vue";
+import {{ camelCase }} from "./components/App.vue";
+
+document.addEventListener(
+    "DOMContentLoaded",
+    () =>
+        new Vue({
+            el: "#js-vue-{{ kebab-case }}",
+            name: "{{ StudlyCase }}Root",
+            components: {
+                {{ camelCase }}
+            },
+            data() {
+                const { dataset } = document.querySelector(this.$options.el);
+                return {
+                    load: parseInt(dataset.load, 10) || 0
+                };
+            },
+            render(createElement) {
+                return createElement("{{ kebab-case }}", {
+                    props: {
+                        load: this.load
+                    }
+                });
+            }
+        })
+);

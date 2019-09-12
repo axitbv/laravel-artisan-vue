@@ -1,0 +1,45 @@
+{
+    "name": "axitbv/laravel-artisan-vue",
+    "description": "Laravel Artisan Command for scaffolding a Vue.js feature application with a Vuex store",
+    "keywords": [
+        "laravel",
+        "artisan",
+        "scaffold",
+        "vue",
+        "vuejs",
+        "vuex"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joost Jacobs",
+            "email": "j.jacobs@xit.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "illuminate/console": "~5.8|^6.0",
+        "illuminate/filesystem": "~5.8|^6.0",
+        "illuminate/support": "~5.8|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Axit\\ArtisanVue\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Axit\\ArtisanVue\\ArtisanVueServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

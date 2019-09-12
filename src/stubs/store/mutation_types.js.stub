@@ -1,0 +1,3 @@
+// feature
+
+export const LOAD_FEATURE = "LOAD_FEATURE";
