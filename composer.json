@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Axit\\ArtisanVue\\": "src/"
+            "Axit\\LaravelArtisanVue\\": "src/"
         }
     },
     "config": {
@@ -36,7 +36,7 @@
         },
         "laravel": {
             "providers": [
-                "Axit\\ArtisanVue\\ArtisanVueServiceProvider"
+                "Axit\\LaravelArtisanVue\\VueServiceProvider"
             ]
         }
     },

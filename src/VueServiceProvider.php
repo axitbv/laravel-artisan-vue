@@ -1,11 +1,11 @@
 <?php
 
-namespace Axit\ArtisanVue;
+namespace Axit\LaravelArtisanVue;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Support\DeferrableProvider;
 
-class ArtisanVueServiceProvider extends ServiceProvider implements DeferrableProvider
+class VueServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     /**
      * Register the package services.

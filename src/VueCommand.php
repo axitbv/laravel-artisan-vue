@@ -1,6 +1,6 @@
 <?php
 
-namespace Axit\ArtisanVue;
+namespace Axit\LaravelArtisanVue;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
