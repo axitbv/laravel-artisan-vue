@@ -1,6 +1,6 @@
 <template>
-    <div class="container-fluid spark-screen">
-        <h3>Greetings from {{ StudlyCase }}!</h3>
+    <div>
+        <h3>{{ StudlyCase }}</h3>
     </div>
 </template>
 
@@ -28,7 +28,7 @@ export default {
         }
     },
     created() {
-        // window.bus.$on("wizard:store-feature", () => {
+        // window.bus.$on("feature:store", () => {
         //     this.storeFeature();
         // });
     },
