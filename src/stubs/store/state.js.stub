@@ -1,4 +1,4 @@
-export default {
+export default () => ({
     feature: {
         // id: null,
         // propA: null,
@@ -7,4 +7,4 @@ export default {
         // relatedEntities: [],
         // relatedNestedEntities: []
     }
-};
+});
